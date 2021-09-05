@@ -1,2 +1,2 @@
 # core-async-example
-Simple example of using core-async channels in Clojure 
+Simple examples of using core-async channels in Clojure 
