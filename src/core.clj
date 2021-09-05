@@ -1,6 +1,5 @@
 (ns core
-  (:require [clojure.data.xml :as xml]
-            [clojure.core.async :refer [go go-loop chan timeout close! <! <!! >!! >!]]))
+  (:require [clojure.core.async :refer [go go-loop chan timeout close! <! <!! >!]]))
 
 (defn fill-chan-concurrently
   "creates and returns a channel then fills the channel with :a, :b, :c, :d concurrently, then closes it"
